@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+:root {
+  --primary-color: #ffdcd0;
+  --secondary-color: #c9d5ff;
+}
+.App {
+  font-family: "Philosopher", sans-serif;
+}
+body {
+  text-align: center;
+  margin: 0px;
+}
+#header-site {
+  background-color: var(--secondary-color);
+  margin: auto;
+  padding: 1rem;
+}
+h1 {
+  font-weight: 600;
+}
+ul {
+  padding: 0px;
+}
+ul li {
+  display: inline;
+  padding: 0rem 0.5rem;
+  margin: 0px;
+}
+button {
+  font-family: "Philosopher", sans-serif;
+  padding: 1rem;
+  width: 100px;
+  background-color: var(--primary-color);
+  border: var(--secondary-color);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  border-style: double;
+  margin: 0.5rem 0px;
+  transition: background-color 0.25s ease-in-out;
+}
+button:hover {
+  background-color: coral;
+  transition: background-color 0.25s ease-in-out;
+}
+.selected {
+  background-color: coral;
+}
+.product-container {
+  padding: 1rem;
+  width: 90%;
+  max-width: 600px;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  margin: auto;
+}
+.product-link {
+  text-decoration: none;
+  color: coral;
+  font-size: 1.25rem;
+}
+
+.product-title {
+  padding-bottom: 0.5rem;
+}
